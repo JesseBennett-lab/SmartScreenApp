@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">SmartScreenApp</string>
+    <string name="exit">Exit</string>
+    <string name="jesse_bennett">Jesse Bennett</string>
+    <string name="st10519056">ST10519056</string>
+    <string name="start">Start</string>
+    <string name="screen_smart">Screen Smart</string>
+    <string name="add">Add</string>
+    <string name="afternoon">Afternoon:</string>
+    <string name="enter_date">Enter date</string>
+    <string name="clear">Clear</string>
+    <string name="feeback_here">Feeback here</string>
+    <string name="morning">Morning:</string>
+    <string name="enter_extra_notes">Enter extra notes:</string>
+    <string name="enter_screen_time_minutes">Enter screen time (minutes):</string>
+    <string name="view">View</string>
 </resources>

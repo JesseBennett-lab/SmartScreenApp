@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartScreenApp">
         <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
