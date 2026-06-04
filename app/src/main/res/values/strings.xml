@@ -14,4 +14,6 @@
     <string name="enter_extra_notes">Enter extra notes:</string>
     <string name="enter_screen_time_minutes">Enter screen time (minutes):</string>
     <string name="view">View</string>
+    <string name="back">Back</string>
+    <string name="detailed_results_below">Detailed results below:</string>
 </resources>
