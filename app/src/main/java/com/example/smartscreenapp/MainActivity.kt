@@ -1,6 +1,8 @@
 package com.example.smartscreenapp
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -12,11 +14,18 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        //ST10519056
-        //Jesse Bennett
-        
+        //connecting ids
+        val startButton = findViewById<Button>(R.id.startButton)
+        val exitButton = findViewById<Button>(R.id.exitButton)
 
+        startButton.setOnClickListener {
+          val intent = Intent(this, MainScreenActivity::class.java)
+          startActivity(intent)
+        }
 
+       exitButton.setOnClickListener{
+           finish()
+       }
 
 
 
