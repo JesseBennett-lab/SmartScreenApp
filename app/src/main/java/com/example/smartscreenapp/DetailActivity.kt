@@ -1,6 +1,8 @@
 package com.example.smartscreenapp
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -12,11 +14,14 @@ class DetailActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_detail)
 
-        val detailTextView = intent.getIntExtra("counter",0)
+        val detailTextView = findViewById<TextView>(R.id.detailTextView)
+        val backButton = findViewById<Button>(R.id.backButton)
+
+        val counter = intent.getIntExtra("counter", 0)
         val days = intent.getSerializableExtra("days") as Array<String>
         val morningTime = intent.getIntArrayExtra("morningTime")
         val afternoonTime = intent.getIntArrayExtra("afternoonTime")
-        val notes = intent.getSerializableExtra("notes")
+        val notes = intent.getSerializableExtra("notes") as Array<String?>
 
         var display = "Screen Time Entries:\n\n"
         var index = 0
