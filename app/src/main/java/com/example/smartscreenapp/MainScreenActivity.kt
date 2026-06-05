@@ -1,5 +1,6 @@
 package com.example.smartscreenapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -45,11 +46,23 @@ class MainScreenActivity : AppCompatActivity() {
         }
 
         clearButton.setOnClickListener {
-            
-
+            dateEditText.text.clear()
+            morningEditText.text.clear()
+            afternoonEditText.text.clear()
+            notesEditText.text.clear()
+            feedbackTextView.text = "Fields Cleared"
         }
 
+        viewButton.setOnClickListener{
+            val intent = Intent(this, DetailActivity::class.java)
+            intent.putExtra("counter", counter)
+            intent.putExtra("days", days)
+            intent.putExtra("morningTime", morningTime)
+            intent.putExtra("afternoonTime", morningTime)
+            intent.putExtra("notes", notes)
+            startActivity(intent)
 
+        }
 
 
 
