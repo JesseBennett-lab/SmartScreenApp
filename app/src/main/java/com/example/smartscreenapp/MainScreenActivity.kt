@@ -45,7 +45,7 @@ class MainScreenActivity : AppCompatActivity() {
         }
 
         clearButton.setOnClickListener {
-            
+
 
         }
 
