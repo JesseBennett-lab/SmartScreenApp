@@ -153,7 +153,7 @@
         android:layout_marginTop="577dp"
         android:layout_marginEnd="72dp"
         android:layout_marginBottom="41dp"
-        android:hint="@string/feeback_here"
+        android:text="Enter your data"
         android:textColorHint="#546E7A"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
