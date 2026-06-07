@@ -142,10 +142,13 @@ var counter = 0                               // Tracks number of entries
 
 Splash Screen with app name, student information, Start and Exit buttons.
 
-### [INSERT Main Screen Screenshot Here]
+<img width="300" height="600" alt="Screenshot 2026-06-07 183044" src="https://github.com/user-attachments/assets/371ab50d-a597-4883-89ad-aa36a4eca25f" />
+
 Main Screen showing input fields (date, morning time, afternoon time, notes) and buttons (Add, Clear, View Details). Shows "Entry added successfully" feedback message.
 
-### [INSERT Detail Screen Screenshot Here]
+<img width="300" height="600" alt="Screenshot 2026-06-07 183044" src="https://github.com/user-attachments/assets/167dc0bf-dc8d-434f-b3e1-4fe1c04e507b" />
+
+
 Detail Screen displaying formatted list of all screen time entries with dates, times, and notes.
 
 ---
