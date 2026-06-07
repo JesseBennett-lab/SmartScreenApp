@@ -1,4 +1,4 @@
-<img width="434" height="967" alt="Screenshot 2026-06-07 182740" src="https://github.com/user-attachments/assets/7e452fd7-5eb8-4288-aa2c-f72f4582e6c8" />
+
 # SmartScreenApp
 
 **Student:** Jesse Bennett  
@@ -138,7 +138,7 @@ var counter = 0                               // Tracks number of entries
 
 ## Screenshots
 
-<img width="434" height="967" alt="Screenshot 2026-06-07 182740" src="https://github.com/user-attachments/assets/897b0a12-87d8-4ea4-9db9-da23271aaf2e" />
+<img width="300" height="600" alt="Screenshot 2026-06-07 182740" src="https://github.com/user-attachments/assets/897b0a12-87d8-4ea4-9db9-da23271aaf2e" />
 
 Splash Screen with app name, student information, Start and Exit buttons.
 
