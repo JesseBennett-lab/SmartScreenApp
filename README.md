@@ -142,7 +142,8 @@ var counter = 0                               // Tracks number of entries
 
 Splash Screen with app name, student information, Start and Exit buttons.
 
-<img width="300" height="600" alt="Screenshot 2026-06-07 183044" src="https://github.com/user-attachments/assets/371ab50d-a597-4883-89ad-aa36a4eca25f" />
+<img width="300" height="600" alt="Screenshot 2026-06-07 182902" src="https://github.com/user-attachments/assets/9b941f9c-02d4-499f-a427-24c174d250f9" />
+
 
 Main Screen showing input fields (date, morning time, afternoon time, notes) and buttons (Add, Clear, View Details). Shows "Entry added successfully" feedback message.
 
