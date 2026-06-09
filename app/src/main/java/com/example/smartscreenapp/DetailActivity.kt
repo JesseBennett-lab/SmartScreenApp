@@ -26,7 +26,8 @@ class DetailActivity : AppCompatActivity() {
         var display = "Screen Time Entries:\n\n"
         var index = 0
 
-        
+
+
         while (index < counter ) {
             display = display + "Day" + days?.get(index) + "\n"
             display = display + "Morning:" + morningTime?.get(index) + "mins\n"

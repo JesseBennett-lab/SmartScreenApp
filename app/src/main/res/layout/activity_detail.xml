@@ -10,35 +10,28 @@
     <TextView
         android:id="@+id/detailTextView"
         android:layout_width="352dp"
-        android:layout_height="550dp"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="106dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="333dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="120dp"
         android:hint="@string/detailed_results_below"
         android:textColorHint="#546E7A"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/backButton"
         android:layout_width="240dp"
         android:layout_height="51dp"
         android:layout_marginStart="85dp"
-        android:layout_marginTop="591dp"
         android:layout_marginEnd="86dp"
-        android:layout_marginBottom="89dp"
         android:text="@string/back"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
